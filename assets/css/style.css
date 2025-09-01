@@ -55,11 +55,11 @@
   );
 
   /* solid colors */
-  --jet: hsl(222, 47%, 11%);
-  --onyx: hsl(222, 47%, 9%);
-  --eerie-black-1: hsl(222, 47%, 11%);
-  --eerie-black-2: hsl(222, 47%, 9%);
-  --smoky-black: hsl(222, 47%, 7%);
+  --jet: hsl(222, 47%, 8%);
+  --onyx: hsl(222, 47%, 6%);
+  --eerie-black-1: hsl(222, 47%, 8%);
+  --eerie-black-2: hsl(222, 47%, 6%);
+  --smoky-black: #030711;
   --white-1: hsl(222, 47%, 98%);
   --white-2: hsl(222, 47%, 96%);
   --orange-yellow-crayola: hsl(199, 98%, 65%);
@@ -95,11 +95,11 @@
    * shadow
    */
   
-  --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
-  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
-  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
-  --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
-  --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
+  --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.4);
+  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.4);
+  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.4);
+  --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.35);
+  --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.4);
 
   /**
    * transition
@@ -458,7 +458,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background: hsla(222, 47%, 6%, 0.85);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
@@ -640,7 +640,7 @@ main {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: hsl(0, 0%, 5%);
+  background: hsl(222, 47%, 4%);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
